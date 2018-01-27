@@ -6,10 +6,21 @@ echo Script by Glowstoner *lol cé mwa*
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo Lancement de Gediminas ...
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+cd gediminas/
+screen -dmS gediminas java -jar FireAPI.jar server
+echo Fait.
+echo Gediminas initialisé.
+
+echo
+
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo Lancement du serveur script login ...
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-cd login/
+cd ~/servers/login/
 screen -dmS server.login ./start.sh
 echo Fait.
 
